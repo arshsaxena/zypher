@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #071b30;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url("/assets/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+nav{
+    width: 100%;
+    z-index: 100000;
+}
+.nav-content{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+.logo-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    height: 100px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+#cyscomlogo {
+    width: 60px;
+    height: 60px;
+}
+#cyscom {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.form-container{
+    background-color: #0b2036;
+    box-shadow: 0px 0px 100px 10px #000000ce;
+    width: 375px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px 50px;
+    color: white;
+    text-align: center;
+}
+.zyphper-logo-content{
+    margin-top: 100px;
+}
+.logo {
+    width: fit-content;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 20px;
+}
+.zypherlogo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+.form{
+    width: 100%;
+}
+.input-box{
+    margin: 50px 0;
+    display: grid;
+}
+.input-box input{
+    width: 353px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 17px;
+    background-color: hsla(0,0%,100%,.8);
+    border-color: #d2d2d7;
+    border: 1.5px solid #071b30;
+    font-family: "text-font-light";
+    border-radius: 15px;
+}
+button{
+    padding: 15px 25px 10px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-family: "League Spartan";
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #6c9baf;
+    border: 2px solid #507483;
+    border-radius: 38px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:focus, button:hover{
+    background-color: #507483;
+    color: #fff;
+}
+@media (max-width: 635px) {
+    .content{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        padding: 0;
+    }
+    .nav-content {
+        display: flex;
+        height: 35px;
+        width: 90%;
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .navbar-left{
+        width: 50%;
+        align-items: center;
+    }
+    #cyscomlogo {
+        width: 50px;
+        height: 50px;
+    }
+    #cyscom {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: 5px;
+    }
+    .zypherlogo {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .form-container{
+        background-color: #0b2036;
+        box-shadow: 0px 0px 100px 10px #000000ce;
+        max-width: 375px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 15px 0px;
+        color: white;
+        text-align: center;
+    }
+    .input-box{
+        margin: 25px 0;
+        display: grid;
+    }
+    .input-box input{
+        width: 80%;
+        height: 30px;
+        padding: 5px 10px;
+        margin: 0px auto;
+        font-size: 17px;
+        background-color: hsla(0,0%,100%,.8);
+        border-color: #d2d2d7;
+        border: 1.5px solid #071b30;
+        font-family: "text-font-light";
+        border-radius: 15px;
+    }
+}

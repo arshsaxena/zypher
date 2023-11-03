@@ -1,0 +1,23 @@
+October 29
+1. Changed the alignment of the main content to center
+2. Commented out Play and Home button
+    2.1 Play button commented as it should be available to registered players only not for everyone after the login.
+3. Nav bar height decreased
+4. Added student and faculty coordinators information
+5. Minor UI fixes
+6. Added space for footer (to be developed)
+
+
+
+November 1
+1. Added Login page, Register page, and Logged In page
+2. Added footer
+3. Expandable FAQ section
+4. Navbar height decreased
+5. Navbar links changed according to the page
+
+
+
+November 3
+1. Added leaderboard
+2. Add link to leaderboard in loggedin

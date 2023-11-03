@@ -1,0 +1,401 @@
+html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #071b30;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+}
+.nav-content-mobile{
+    display: none;
+}
+.nav-content {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.navbar-center {
+    text-align: center;
+    align-items: center;
+}
+.navbar-right {
+    text-align: right;
+    /* margin-right: 20px !important; */
+}
+#cyscomlogo {
+    width: 60px;
+    height: 60px;
+}
+#cyscom {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.play {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.play:hover {
+    background-color: #fce4bc;
+    color: #6e2e3a;
+}
+.zyphper-logo-content{
+    margin-top: 100px;
+}
+.logo {
+    width: fit-content;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 20px;
+}
+.zypherlogo {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+.main-content {
+    padding-top: 130px;
+    position: relative;
+    background-image: url("/assets/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.content-container{
+    max-width: 1200px;
+    width: 90%;
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.left, .right{
+    width: 100%;
+}
+.decipher {
+    position: relative;
+    padding: 20px 20px;
+    font-family: "League Spartan";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 78px;
+    z-index: 1;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.savethedate {
+    padding: 40px 0 10px;
+    font-family: "League Spartan";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: 0.145em;
+    color: #ffffff;
+}
+.date {
+    padding-bottom: 30px;
+    font-family: "Kosugi Maru";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    /* letter-spacing: 0.2em; */
+    -webkit-text-stroke: 2px #6e2e3a;
+    -webkit-text-fill-color: #fce4bc;
+}
+.register-container{
+    padding-bottom: 40px;
+}
+.register-button{
+    padding: 20px 30px 10px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-family: "League Spartan";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #6c9baf;
+    border: 3px solid #507483;
+    border-radius: 38px;
+    -webkit-text-stroke: 3px #507483;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+.register-button:hover {
+    background-color: #507483;
+    color: #fff;
+}
+@media (max-width: 1130px) {
+    .body {
+        position: relative;
+   }
+    .main-content {
+        display: inline-table;
+   }
+}
+@media (max-width: 635px) {
+    nav{
+        padding: 0;
+    }
+    .nav-content {
+        display: flex;
+        height: 35px;
+        width: 90%;
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .navbar-left, .navbar-right{
+        width: 50%;
+        align-items: center;
+    }
+    #cyscomlogo {
+        width: 50px;
+        height: 50px;
+    }
+    #cyscom {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: 5px;
+    }
+    .logo-container{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar-right{
+        text-align: right;
+        margin-right: 5px;
+    }
+    .zypherlogo {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .logo-content{
+        margin-top: 50px;
+    }
+    .main-content{
+        padding-top: 100px;
+    }
+    .content-container{
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto !important;
+    }
+    .left, .right{
+        width: 100%;
+        text-align: center;
+    }
+    .left{
+        order: 2;
+    }
+    .righ{
+        order: 1;
+    }
+    .decipher {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .savethedate{
+        font-size: 20px;
+    }
+    .date{
+        font-size: 40px;
+    }
+    .register-button {
+        padding: 12px 20px 5px;
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+        font-family: "League Spartan";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.75);
+        background-color: #6c9baf;
+        border: 3px solid #507483;
+        border-radius: 38px;
+        -webkit-text-stroke: 2px #507483;
+        transition: background-color 0.3s, color 0.3s;
+        cursor: pointer;
+    }
+    .section-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.scroll-down-page {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url("/assets/images/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #071b30;
+    /* min-height: 100vh; */
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 30px 0;
+}
+.event-section{
+    max-width: 1200px;
+    width: 90%;
+}
+.event-desc {
+    margin: 0 auto;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+.event-desc ul {
+    list-style: none;
+    padding: 0;
+}
+.event-desc ul li {
+    margin-bottom: 5px;
+}
+.event-rules {
+    margin: 0 auto;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+.event-rules ul {
+    list-style: none;
+    padding: 0;
+}
+.event-rules ul li {
+    margin-bottom: 5px;
+}
+.faq {
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+.faq-box {
+    max-width: 1200px;
+    margin: 10px auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: left;
+}
+.query-container{
+    border: 1px solid #ddd;
+    border: 10px;
+    margin-bottom: 10px;
+}
+.faq-box .question {
+    background-color: #354443;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Nunito";
+    text-decoration: none;
+    color: #fce4bc;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+.faq-box .answer {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #cfbd9c;
+    /* padding: 15px; */
+    font-size: 25px;
+    font-family: "Nunito";
+    text-decoration: none;
+    color: #424141;
+    margin-top: 5px;
+}
+.faq-box .question:hover{
+    background-color: #4c6260;
+}
+@media (max-width: 635px) {
+    .event-section h1{
+        font-size: 35px;
+    }
+    .event-section ul li, .event-section p{
+        font-size: 20px;
+    }
+    .faq h1{
+        font-size: 25px;
+    }
+    .faq-box .question{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .faq-box .answer{
+        font-size: 20px;
+    }
+}
+.landing-page {
+    background-attachment: fixed;
+}
+.scroll-down-page {
+    background-attachment: fixed;
+}
+footer{
+    font-family: "Nunito", sans-serif;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+footer p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+footer a img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 0 2.5px;
+}

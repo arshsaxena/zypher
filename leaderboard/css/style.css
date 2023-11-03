@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #071b30;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url("/assets/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+nav{
+    width: 100%;
+    z-index: 100000;
+}
+.nav-content{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+.logo-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    height: 100px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+#cyscomlogo {
+    width: 60px;
+    height: 60px;
+}
+#cyscom {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.content-container{
+    background-color: #0b2036;
+    box-shadow: 0px 0px 100px 10px #000000ce;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.table-container table{
+    padding: 20px 0;
+    width: 100%;
+    border-spacing: 0;
+}
+.table-container table tbody tr th{
+    padding: 10px 0 20px;
+}
+.table-container table tbody tr td{
+    padding: 10px;
+}
+.table-container table tbody tr td:nth-of-type(2){
+    text-align: left;
+}
+.table-container table tbody tr:nth-child(even){
+    background-color: #071b30;
+    border-radius: 10px;
+}
+.table-container table tr th{
+    width: 33.33%;
+}
+.zyphper-logo-content{
+    margin-top: 100px;
+}
+.logo {
+    width: fit-content;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 20px;
+}
+.zypherlogo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 670px) {
+    .content{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        padding: 0;
+    }
+    .nav-content {
+        display: flex;
+        height: 35px;
+        width: 90%;
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .navbar-left{
+        width: 50%;
+        align-items: center;
+    }
+    #cyscomlogo {
+        width: 50px;
+        height: 50px;
+    }
+    #cyscom {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: 5px;
+    }
+    .zypherlogo {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .content-container{
+        background-color: #0b2036;
+        box-shadow: 0px 0px 100px 10px #000000ce;
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 0px;
+        color: white;
+        text-align: center;
+    }
+    .table-container{
+        overflow: scroll;
+    }
+    .table-container table tbody tr th{
+        padding: 10px 30px 20px;
+    }
+    .table-container table tbody tr td{
+        padding: 10px;
+    }
+}
