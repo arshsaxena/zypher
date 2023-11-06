@@ -1,3 +1,5 @@
+Landing page template - Shubhi Tiwari
+
 1. Landing page - Arijit Bhowal
 2. FAQ section - Roanek Jena
 3. Login page and register page HTML - P K Pavan Teja
